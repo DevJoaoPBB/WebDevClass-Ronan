@@ -1,0 +1,69 @@
+h1{
+    margin: 0;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: gray;
+}
+#titulo{
+    height: 150px;
+    margin: 0 auto;
+    background-color: beige;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#principal{
+    height: calc(100% - 150px);
+    background-color: aquamarine;
+    display: flex;
+}
+
+.placar{
+    background-color: azure;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+}
+
+#placar{
+    background-color: blueviolet;
+    width: 15%;
+    height: 100%;
+}
+
+.jogo{
+    background-color: chocolate;
+    width: 70%;
+    height: 100%;;
+
+}
+.quadrado{
+    height: 100%;
+    width: calc(100% / 3);
+    background-color:rgb(25, 172, 69);
+   /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha{
+    height:270px;
+    border-bottom:solid 1px;
+    background-color: yellow;
+    display: flex;
+    text-align: center;
+
+}
+
+
+#placar{
+    background-color: blueviolet;
+    width: 15%;
+    height: 100%;
+}
