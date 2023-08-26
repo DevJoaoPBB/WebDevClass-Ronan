@@ -10,37 +10,38 @@
 <body>
     <div id="titulo">
         <h1>Game Of Old Woman</h1>
-        <p id="partida">1</p>
+        <p id="partida"></p> 
     </div>   
     <div id="principal">
         <div class="placar">
-            <div class="jogador">JOAO</div>
-            <div class="resultado">100</div>
+            <div class="jogador">Jogadsor X</div>
+            <div class="resultado" id="Jx">0</div>
         </div>
         <div class="jogo">
                 <div class="linha">            
-                    <button id="1" class="quadrado">1</button>
-                    <button id="2" class="quadrado">1</button>
-                    <button id="3" class="quadrado">1</button>
+                    <button id="1" class="quadrado" onclick="MudarValor(this)"></button>
+                    <button id="2" class="quadrado" onclick="MudarValor(this)"></button>
+                    <button id="3" class="quadrado" onclick="MudarValor(this)"></button>
                 </div>
                 <div class="linha">
-                    <button id="4" class="quadrado">2</button>
-                    <button id="5" class="quadrado">2</button>
-                    <button id="6" class="quadrado">2</button>
+                    <button id="4" class="quadrado" onclick="MudarValor(this)"></button>
+                    <button id="5" class="quadrado" onclick="MudarValor(this)"></button>
+                    <button id="6" class="quadrado" onclick="MudarValor(this)"></button>
                 </div>
                 <div class="linha">
-                    <button id="7" class="quadrado">3</button>
-                    <button id="8" class="quadrado">3</button>
-                    <button id="9" class="quadrado">3</button>
-   
+                    <button id="7" class="quadrado" onclick="MudarValor(this)"></button>
+                    <button id="8" class="quadrado" onclick="MudarValor(this)"></button>
+                    <button id="9" class="quadrado" onclick="MudarValor(this)"></button>
+                    
             </div>
         </div>        
         <div class="placar">
-            <div class="jogador">RESULTADO</div>
-            <div class="resultado">0</div>
+            <div class="jogador">Jogador O</div>
+            <div class="resultado" id="Jo">0</div>
         </div>
-    
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
